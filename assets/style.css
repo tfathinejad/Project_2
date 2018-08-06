@@ -1,0 +1,39 @@
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+body{
+    margin-right: 50px;
+    background-color: beige;
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-style: oblique
+    font-size: 15px;
+}
+h2{
+    position: relative;
+    text-align: center;
+    font-style: oblique
+    font-size: 10px;
+}
+p{
+    font-size: 15px;
+}
+
+img{
+    margin-top: 10px;
+}
+
+#map {
+height: 65%;
+margin-left: 65px;
+margin-right: 65px;
+padding: 20px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
